@@ -1,0 +1,219 @@
+
+body{
+
+    background-color:#18102a;
+    height: 100vh !important;
+   
+  }
+  
+  .main{
+  
+    z-index: 12345;
+    top: 500px;
+  }
+ 
+  
+  #particles-js{
+  
+  position: relative;
+  
+  top: -500px;
+  height: 100vh;
+  
+  }
+  
+  
+  .mainborder{
+  
+      width: 450px;
+      height: 400px;
+      background-color: white;
+      position: relative;
+      top: 80px; /*80*/
+      box-shadow: 1px 1px 2px 2px #dee2e670 ;
+      border-style: solid;
+      border-color: #dee2e670;
+      
+  }
+  
+  .mainborderflex{
+  
+  display: flex;
+  justify-content: center;
+  
+  }
+  
+  .widthinput{
+  
+      width: 370px;
+  }
+  
+  .designinputwithlabel{
+  
+  padding-left: 30px;
+  
+  
+  }
+  
+  
+  .buttonsign{
+  
+  width: 180px;
+  
+  }
+  
+  .NewAccount{
+  
+      position: relative;
+  
+      top: 130px;
+  
+      font-size: 18px;
+  
+  
+  }
+  .divBefore{
+  
+      width: 30px;
+      height: 20px;
+      background-color: red;
+  
+  }
+  
+  .NewAccount:before{
+      content:" ";
+      display: block;
+      height: 2px;
+      width: 170px;
+      position: absolute;
+      top: 50%;
+      left: 35%;
+      background: #dee2e6d7;
+    }
+  
+    .NewAccount:after{
+      content:" ";
+      height: 2px;
+      width: 170px;
+      background:#dee2e6d7 ;
+      display: block;
+      position: absolute;
+      top: 50%;
+      right: 35%;
+    }
+  
+    .buttoncreate{
+  
+  
+      width: 350px;
+      position: relative;
+      top: 135px;
+      box-shadow: 1px 1px 4px 4px #dee2e670 ; 
+      font-size: 17px;
+      font-weight: 400;
+  
+  
+    }
+  
+    .paddingsignin{
+  
+      position: relative;
+      top: 60px;
+      font-weight: 700;
+      
+    }
+  
+    .main{
+  
+      margin-top: -30px;
+  
+    }
+  
+    .icon{
+  
+      font-size: 35px;
+      color: red
+  
+    }
+
+    .headerNav{
+
+
+        font-size: 30px;
+    
+        font-weight: 700;
+    
+        font-family: Arial, Helvetica, sans-serif;
+    
+        color: white;
+    
+    
+    
+    }
+    
+    
+    /*.headerNav:hover{
+    
+    
+        color:white;
+    
+        transition-duration: 0.2s;
+    
+    
+    
+    }*/
+
+    .navlink{
+
+
+        font-size: 22px;
+    
+        font-weight: 600;
+    
+        color:white !important;
+
+        cursor: pointer !important;
+    
+    
+    }
+    
+    
+
+    .validInput{
+
+
+      color: red;
+
+      font-size: 16px;
+
+
+      padding-left: 10px;
+
+      position: fixed;
+
+
+    }
+
+    .displayerror{
+
+
+      display: none;
+
+
+    }
+
+
+    .messageBack{
+
+
+      position: relative;
+
+      top: 30px;
+
+      font-size: 20px;
+
+      font-weight: 500;
+
+     
+
+    }
